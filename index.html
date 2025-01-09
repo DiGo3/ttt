@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Крестики-Нолики</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-board">
+      <!-- Игровое поле -->
+    </div>
+    <div id="message"></div>
+    <button id="reset-btn" onclick="resetGame()">Перезапустить игру</button>
+    <div id="waiting-zone">Ожидайте следующего игрока...</div>
+    <div id="player-list">
+      <h3>Список игроков</h3>
+      <ul id="players"></ul>
+      <p>Количество сыгранных игр: <span id="game-count">0</span></p>
+    </div>
+    <div id="donation">
+      <h3>Поддержите проект</h3>
+      <button id="donate-btn">Пожертвовать</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
